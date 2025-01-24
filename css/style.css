@@ -2174,29 +2174,138 @@ body.modal{
 	.container{padding: 0px 20px;}
 }
 @media (max-width: 768px) {
-	.beker_tm_hero .content .title span:before{bottom: 8px;}
-	.beker_tm_hero .content .title{font-size: 40px;}
-	.beker_tm_about .content_inner .title{font-size: 30px;}
-	.beker_tm_title_holder h3{font-size: 30px;}
-	.beker_tm_services .service_list ul{margin: 0px;}
-	.beker_tm_services .service_list ul li{width: 100%;padding-left: 0px;}
-	.beker_tm_portfolio .portfolio_list ul{margin: 0px;}
-	.beker_tm_portfolio .portfolio_list ul li{width: 100%;padding-left: 0px;}
-	.beker_tm_contact .left .title h3{font-size: 30px;}
-	.beker_tm_contact .right .title p{font-size: 20px;line-height: 1.7;}
-	.beker_tm_contact .second{flex-direction: column;align-items: flex-start;}
-	.beker_tm_contact .second > div{width: 100%;}
-	.beker_tm_contact .second > div:first-child{padding: 0px;}
-	.beker_tm_contact .second > div:last-child{padding: 0px;}
-	.beker_tm_modalbox_service .box_inner{width: 300px;}
-	.beker_tm_modalbox_service .close .svg{width: 30px;height: 30px;}
-	.beker_tm_modalbox_service .close{margin-left: -50px;top: -35px;}
-	.beker_tm_modalbox_service .description_wrap{padding: 20px;}
-	.beker_tm_modalbox_news .box_inner{width: 300px;}
-	.beker_tm_modalbox_news .close .svg{width: 30px;height: 30px;}
-	.beker_tm_modalbox_news .close{margin-left: -38px;top: -35px;}
-	.beker_tm_modalbox_news .description_wrap{padding: 20px;}
-	.beker_tm_modalbox_news .details .title h3{font-size: 18px;}
-	.beker_tm_modalbox_news .details{margin-bottom: 15px;}
-	.beker_tm_modalbox_news .main_content .descriptions .bigger{font-size: 17px;}
+	.beker_tm_hero .content .image_wrapper {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 20px; /* Margin below the image */
+	}
+
+	.beker_tm_hero .content .image {
+		width: 150px; /* Image width */
+		height: 150px; /* Image height */
+		background-size: cover;
+		background-position: center;
+		border-radius: 50%; /* Circular image */
+	}
+
+	.beker_tm_hero .content .title {
+		font-size: 32px;
+		text-align: center; /* Centering the name */
+		margin-top: 15px;
+	}
+
+	.beker_tm_hero .content .title span {
+		font-size: 18px;
+		display: block; /* Display role below the name */
+	}
+
+	.beker_tm_hero .content .beker_tm_button {
+		text-align: center; /* Center the button */
+		margin-top: 20px; /* Margin above the button */
+	}
+
+	
+	
+
+	.beker_tm_about .content_inner .title {
+		font-size: 26px; /* Adjusted font size for better readability */
+	}
+
+	.beker_tm_title_holder h3 {
+		font-size: 26px; /* Smaller font size for better fit */
+	}
+
+	.beker_tm_services .service_list ul {
+		margin: 0px;
+	}
+
+	.beker_tm_services .service_list ul li {
+		width: 100%;
+		padding-left: 0px;
+	}
+
+	.beker_tm_portfolio .portfolio_list ul {
+		margin: 0px;
+	}
+
+	.beker_tm_portfolio .portfolio_list ul li {
+		width: 100%;
+		padding-left: 0px;
+	}
+
+	.beker_tm_contact .left .title h3 {
+		font-size: 26px; /* Slightly smaller title size */
+	}
+
+	.beker_tm_contact .right .title p {
+		font-size: 18px; /* Reduced font size */
+		line-height: 1.6;
+	}
+
+	.beker_tm_contact .second {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.beker_tm_contact .second > div {
+		width: 100%;
+	}
+
+	.beker_tm_contact .second > div:first-child {
+		padding: 0px;
+	}
+
+	.beker_tm_contact .second > div:last-child {
+		padding: 0px;
+	}
+
+	.beker_tm_modalbox_service .box_inner {
+		width: 280px; /* Slightly smaller width */
+	}
+
+	.beker_tm_modalbox_service .close .svg {
+		width: 28px;
+		height: 28px; /* Adjusted icon size */
+	}
+
+	.beker_tm_modalbox_service .close {
+		margin-left: -45px;
+		top: -30px;
+	}
+
+	.beker_tm_modalbox_service .description_wrap {
+		padding: 18px; /* Adjusted padding */
+	}
+
+	.beker_tm_modalbox_news .box_inner {
+		width: 280px;
+	}
+
+	.beker_tm_modalbox_news .close .svg {
+		width: 28px;
+		height: 28px;
+	}
+
+	.beker_tm_modalbox_news .close {
+		margin-left: -35px;
+		top: -30px;
+	}
+
+	.beker_tm_modalbox_news .description_wrap {
+		padding: 18px;
+	}
+
+	.beker_tm_modalbox_news .details .title h3 {
+		font-size: 16px; /* Slightly smaller title size */
+	}
+
+	.beker_tm_modalbox_news .details {
+		margin-bottom: 12px;
+	}
+
+	.beker_tm_modalbox_news .main_content .descriptions .bigger {
+		font-size: 15px; /* Adjusted font size for better readability */
+	}
+
+
 }
