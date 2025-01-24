@@ -604,6 +604,21 @@ body.opened .beker_tm_hero .beker_tm_button{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
+.beker_tm_button button{
+	text-decoration: none;
+	color: #0F172A;
+	font-weight: 500;
+	display: inline-block;
+	padding: 13px 44px;
+	border: 2px solid #7E7E7E;
+	border-radius: 50px;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
 .beker_tm_button a:hover{
 	color: #fff;
 	border-color: #1473E6;
@@ -2203,9 +2218,6 @@ body.modal{
 		text-align: center; /* Center the button */
 		margin-top: 20px; /* Margin above the button */
 	}
-
-	
-	
 
 	.beker_tm_about .content_inner .title {
 		font-size: 26px; /* Adjusted font size for better readability */

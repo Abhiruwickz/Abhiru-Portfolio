@@ -15,7 +15,6 @@
 
 <!-- STYLES -->
 <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
 <link rel="stylesheet" type="text/css" href="css/plugins.css" />
 <link rel="stylesheet" type="text/css" href="css/dark.css" />
 <link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -354,7 +353,7 @@
 					</div>
 					<div class="list_inner item">
 						<div class="image">
-							<div class="main" data-img-url="img/testimonials/2.jpg"></div>
+							<div class="main" data-img-url="img/testimonials/google.jpg"></div>
 						</div>
 						<div class="short">
 							<h3 class="name"><span>Digital Marketing</span></h3>
@@ -497,28 +496,28 @@
 						<p>feel free to reach out—I’d love to hear from you!<br /><span>design work or partnerships.</span></p>
 					</div>
 					<div class="fields">
-						<form action="modal/contact.php" method="post" class="contact_form" id="contact_form" autocomplete="off">
+						<form action="https://formspree.io/f/mbldlror" method="POST" class="contact_form" id="contact_form" autocomplete="off">
 							<div class="returnmessage" data-success="Your message has been received, We will contact you soon."></div>
 							<div class="empty_notice"><span>Please Fill Required Fields</span></div>
 							<div class="first_row">
-								<input id="name" type="text" placeholder="Name*" />
+								<input id="name" type="text" name="name" placeholder="Name*" required />
 							</div>
 							<div class="second">
 								<div class="left">
-									<input id="email" type="text" placeholder="Email*" />
+									<input id="email" type="email" name="email" placeholder="Email*" required />
 								</div>
 								<div class="right">
-									<input id="subject" type="text" placeholder="Subject*" />
+									<input id="subject" type="text" name="subject" placeholder="Subject*" required />
 								</div>
 							</div>
 							<div class="third">
-								<textarea id="message" placeholder="Message*"></textarea>
+								<textarea id="message" name="message" placeholder="Message*" required></textarea>
 							</div>
 							<div class="beker_tm_button">
-								<a id="send_message" type="submit">Submit</a>
+								<button type="submit">Submit</button>
 							</div>
-							
 						</form>
+						
 					</div>
 				</div>
 			</div>
